@@ -1,0 +1,40 @@
+name: application_ui
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^6.1.0
+  flutter_rating_bar: ^4.0.0
+  flutter_svg: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+fultter:
+  assets/images:
+  - computer.png
+  - 1.jpg
+  - 2.png
+  - 3.png
+  - 4.png
+  - 5.png
+  - what-is-design.jpg
+  - Facebook_thumb_icon.svg
+  - thumbsup.png
+
+uses-material-design: true
